@@ -1,0 +1,16 @@
+name: styleGan
+data_root: /celeba_datasets/HQface/CelebAMask-HQ/CelebA-HQ-img
+resume: ~
+img_size: 256
+batch_size: 8
+fmap_base: 2048
+num_epochs: 200
+lr_G: 0.00001
+lr_D: 0.00001
+latent_size: 128
+r1_gamma: 10.0
+opt_g_freq: 5
+print_freq: 750
+save_img_freq: 750
+save_img_path: /home/xm/wanchao/stylegan/generate_img
+save_path: /home/xm/wanchao/stylegan
